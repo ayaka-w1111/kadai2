@@ -25,7 +25,7 @@
 }
 
 .fukidashi-text {
-    position: absolute;  /*画像の上に重ねる*/
+    position: absolute;  /*画像の上に文字を重ねる*/
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
