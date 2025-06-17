@@ -1,0 +1,44 @@
+.tagline{
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tagline .emphasis{
+    font-size: 20px;
+    color: #007BFF;
+}
+
+.fukidashi-box{
+    position: relative;
+    width: 600px;
+    margin:  20px auto;
+}
+
+.fukidashi-box img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.fukidashi-text {
+    position: absolute;  /*画像の上に重ねる*/
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-shadow:  2px 2px 4px rgba(0,0,0,0.6);
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+}
+
+.fukidashi-text span{
+    font-size: 40px;
+    color: white;
+}
