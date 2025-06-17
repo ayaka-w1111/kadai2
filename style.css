@@ -12,6 +12,12 @@
     color: #007BFF;
 }
 
+.slash {
+  padding: 0 10px; 
+  font-weight: bold;
+}
+
+
 .fukidashi-box{
     position: relative;
     width: 600px;
@@ -32,7 +38,6 @@
     font-size: 28px;
     font-weight: bold;
     color: white;
-    text-shadow:  2px 2px 4px rgba(0,0,0,0.6);
     white-space: nowrap;
     width: 100%;
     text-align: center;
